@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.fpage{
+    padding: 40px 100px;
+}
+.main{
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 70vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mainheading{
+color: gold;
+font-size: 40px;
+}
+nav ul li {
+    list-style: none;
+ padding: 0px 50px;
+}
+.a{
+    margin-top: 10px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+    color: gold;
+}
+.imggcuss{
+    width: 200px;
+}
+
+
+/* About us  */
+.aboutus{
+    position: relative;
+text-align: center;
+margin-top: 0px;
+min-height: 50vh;
+
+color: white;
+padding: 100px;
+}
+.picg{
+    background: url(./Images/event\ pic.jpg) center no-repeat;
+filter: blur(20px);
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+top: 0%;
+left: 0%;
+
+}
+
+.aboutus p{
+    margin-top: 30px;
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+.aboutus h1{
+    color: gold;
+}
+.sec2{
+    padding: 0px 100px;
+}
+.box img{
+    /* width: 400px; */
+    height: 300px;
+    border-radius: 20%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.text h1{
+    color: GOLD;
+}
+.AA{
+    
+}
+
+
+
+
+/* Form */
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  
+  .form {
+    padding: 30px 40px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control label {
+    /* color: #777; */
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    /* border: 2px solid #f0f0f0; */
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .form-control input:focus {
+    outline: 0;
+    border-color: #777;
+  }
+  
+  .form-control.success input {
+    border-color: var(--success-color);
+  }
+  
+  .form-control.error input {
+    border-color: var(--error-color);
+  }
+  
+  .form-control small {
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+  }
+  
+  .form-control.error small {
+    visibility: visible;
+  }
+  
+  .form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .abbbbccc{
+color:gold
+  }
+  .aaa{
+      background-color: gold;
+  }
